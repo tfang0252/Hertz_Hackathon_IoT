@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#FFD60D"
+    android:layout_height="match_parent"
+    tools:context="com.example.danny.myapplication.SecActivity">
+
+    <ImageButton
+        android:id="@+id/profileButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="77dp"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="81dp"
+        android:background="@null"
+        app:srcCompat="@drawable/customer60" />
+
+    <ImageButton
+        android:id="@+id/carButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/profileButton"
+        android:layout_marginEnd="85dp"
+        android:layout_marginRight="85dp"
+        android:background="@null"
+        app:srcCompat="@drawable/carsize" />
+
+    <ImageButton
+        android:id="@+id/carWrenchButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/profileButton"
+        android:layout_alignStart="@+id/profileButton"
+        android:layout_below="@+id/profileButton"
+        android:layout_marginTop="59dp"
+        android:background="@null"
+        app:srcCompat="@drawable/calendar_65x65" />
+
+    <ImageButton
+        android:id="@+id/wrenchButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/carButton"
+        android:layout_alignStart="@+id/carButton"
+        android:layout_alignTop="@+id/carWrenchButton"
+        android:background="@null"
+        app:srcCompat="@drawable/newwrench2" />
+
+</RelativeLayout>
