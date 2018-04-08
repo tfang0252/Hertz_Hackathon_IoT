@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.danny.experience.Reservation">
+
+    <TextView
+        android:id="@+id/makeView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="29dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="24dp"
+        android:text="Reservation"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <Spinner
+        android:id="@+id/dropSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/makeView"
+        android:layout_marginTop="67dp" />
+
+    <Spinner
+        android:id="@+id/pickSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/dropSpinner"
+        android:layout_marginTop="88dp" />
+
+    <ImageButton
+        android:id="@+id/nextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pickSpinner"
+        android:layout_marginLeft="73dp"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="88dp"
+        android:layout_toEndOf="@+id/makeView"
+        android:layout_toRightOf="@+id/makeView"
+        android:background="@null"
+        android:src="@drawable/next" />
+
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Experience</string>
+    <string-array name="make">
+        <item>Ford</item>
+        <item>Volkswagen</item>
+        <item>Honda</item>
+        <item>Subaru</item>
+    </string-array>
+    <string-array name="model">
+        <item>Golf</item>
+        <item>GTI</item>
+        <item>Passat</item>
+        <item>Tiguan</item>
+    </string-array>
+    <string-array name="pick">
+        <item>4-8-2018</item>
+        <item>4-9-2018</item>
+        <item>4-10-2018</item>
+        <item>4-11-2018</item>
+    </string-array>
+    <string-array name="drop">
+        <item>4-9-2018</item>
+        <item>4-10-2018</item>
+        <item>4-11-2018</item>
+        <item>4-12-2018</item>
+    </string-array>
+
+</resources>

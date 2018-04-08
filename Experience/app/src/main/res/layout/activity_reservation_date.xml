@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.danny.experience.reservationDateActivity">
+
+    <ImageButton
+        android:id="@+id/pickImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="35dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="37dp"
+        app:srcCompat="@drawable/reservcalendar1" android:contentDescription="TODO" />
+
+    <ImageButton
+        android:id="@+id/dropImageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/pickSpinner"
+        android:layout_toStartOf="@+id/pickSpinner"
+        app:srcCompat="@drawable/reservcalendar1" />
+
+    <Spinner
+        android:id="@+id/pickSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/pickImageButton"
+        android:layout_marginLeft="41dp"
+        android:layout_marginStart="41dp"
+        android:layout_toEndOf="@+id/pickImageButton"
+        android:layout_toRightOf="@+id/pickImageButton" />
+
+    <Spinner
+        android:id="@+id/dropSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/pickSpinner"
+        android:layout_alignStart="@+id/pickSpinner"
+        android:layout_centerVertical="true" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="59dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        app:srcCompat="@drawable/seticon" />
+
+</RelativeLayout>
